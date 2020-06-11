@@ -1,0 +1,25 @@
+.all{
+	border: 1px solid #CCC
+	color:blue;
+}
+.main{
+	padding-left: 400px;
+}
+.main .list {
+	width: 100%;
+	max-width: 768px;
+	background-color: #FFF;
+	border: 1px solid #CCC;
+	margin-top: 25px;
+}
+
+.main .list .item {
+	padding: 15px;
+	border-bottom: 1px solid #CCC;
+}
+.main .list .item:last-of-type {
+	border-bottom: none;
+}
+.main .list .item:hover {
+	background: rgba(0, 0, 0, 0.05);
+}
